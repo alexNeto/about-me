@@ -1,0 +1,17 @@
+<div class="timeline-item is-primary">
+  <div class="timeline-marker is-primary is-icon">
+    <i class="fa fa-flag"></i>
+  </div>
+  <div class="timeline-content">
+    <p class="heading">{{ timelineInfo.date }}</p>
+    <h2>{{ timelineInfo.header }}</h2>
+    <div>
+      <p [innerHTML]="timelineInfo.content"></p>
+      <div class="tags">
+        <span class="tag" *ngFor="let tag of timelineInfo.tags"
+          ><a href="{{ tag.link }}" target="_blank">{{ tag.text }}</a></span
+        >
+      </div>
+    </div>
+  </div>
+</div>
