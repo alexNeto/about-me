@@ -1,0 +1,14 @@
+<div class="card-content">
+  <div class="media">
+    <div class="media-content">
+      <h1 class="title is-4">{{ project.title }}</h1>
+      <h2 class="subtitle is-6">
+        {{ project.subtitle }}
+      </h2>
+    </div>
+  </div>
+
+  <div class="content" *ngFor="let subproject of project.subproject">
+    <app-subproject [subproject]="subproject"></app-subproject>
+  </div>
+</div>

@@ -32,7 +32,7 @@ export class TimelineComponent implements OnInit {
         date: 'julho de 2016 - Presente',
         header: 'Análise e Desenvolvimento de Sistemas',
         content: 'Faculdade de Tecnologia ' +
-          '(<a href="https://fatecsjc-prd.azurewebsites.net/"   target="_blank">FATEC</a>), São José dos Campos, SP',
+          '(<a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank">FATEC</a>), São José dos Campos, SP',
         tags: []
       }, {
         date: 'novembro de 2017 - janeiro de 2019',
