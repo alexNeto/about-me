@@ -3,6 +3,14 @@
 @import "bulma";
 @import "~bulma-timeline";
 
+::selection {
+  background: #f2be04;
+}
+
+a {
+  color: #c29200;
+}
+
 .button {
   border-radius: 0;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
