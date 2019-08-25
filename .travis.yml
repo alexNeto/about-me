@@ -14,7 +14,7 @@ before_script:
 script:
   - npm install
   - ng lint
-  - ng build --prod
+  - ng build --prod --base-href /about-me/
   - gulp purifyCSS
 deploy:
   provider: pages
