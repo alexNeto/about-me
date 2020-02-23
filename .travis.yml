@@ -1,21 +1,18 @@
 language: node_js
 node_js:
-  - "11.0"
+  - lts/*
 sudo: required
-branches:
-  only:
-    - master
 cache:
   directories:
     - node_modules
 before_script:
-  - npm install -g @angular/cli
-  - npm install gulp
-script:
+  - chmod -R +x ./ci/
+  - "./ci/version_control"
+install:
   - npm install
-  - ng lint
-  - ng build --prod --base-href /about-me/
-  - gulp purifyCSS
+script:
+  - npm run lint
+  - npm run build
 deploy:
   provider: pages
   skip_cleanup: true
@@ -23,3 +20,4 @@ deploy:
   local_dir: dist/about-me
   on:
     branch: master
+    tags: true

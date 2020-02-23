@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --aot --prod --progress=false",
+    "build": "ng build --prod; gulp purifyCSS",
     "purify": "gulp purifyCSS",
     "test": "ng test",
     "lint": "ng lint",
