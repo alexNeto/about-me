@@ -1,11 +1,12 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TagsService {
 
-  constructor() { }
+  constructor() {
+  }
 
   html = {
     link: 'https://www.w3schools.com/html/default.asp',
@@ -17,6 +18,10 @@ export class TagsService {
     text: 'CSS'
   };
 
+  vue = {
+    link: 'https://vuejs.org/',
+    text: 'Vue.js'
+  };
 
   js = {
     link: 'https://www.w3schools.com/js/default.asp',
@@ -41,6 +46,11 @@ export class TagsService {
   postgres = {
     link: 'https://www.postgresql.org/',
     text: 'PostgreSQL'
+  };
+
+  mysql = {
+    link: 'https://www.mysql.com/',
+    text: 'MySQL'
   };
 
   angularjs = {

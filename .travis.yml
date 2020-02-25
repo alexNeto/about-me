@@ -13,11 +13,12 @@ install:
 script:
   - npm run lint
   - npm run build
+
 deploy:
-  provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: dist/about-me
+  provider: firebase
+  token:
+    secure: "$FIREBASE_TOKEN"
   on:
     branch: master
     tags: true

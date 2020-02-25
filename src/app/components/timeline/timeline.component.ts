@@ -1,6 +1,6 @@
-import { TimelineInfo } from './../../models/timeline-info.model';
-import { Component, OnInit } from '@angular/core';
-import { TagsService } from 'src/app/services/tags/tags.service';
+import {TimelineInfo} from './../../models/timeline-info.model';
+import {Component, OnInit} from '@angular/core';
+import {TagsService} from 'src/app/services/tags/tags.service';
 
 @Component({
   selector: 'app-timeline',
@@ -10,13 +10,25 @@ import { TagsService } from 'src/app/services/tags/tags.service';
 export class TimelineComponent implements OnInit {
 
 
-
   info: TimelineInfo[];
 
   constructor(private tag: TagsService) {
     this.info = [
       {
-        date: 'fevereiro de 2019 - presente',
+        date: 'novembro de 2019 - presente',
+        header: 'Guichê Virtual',
+        content: 'Desenvolvimento e manutenção de plataforma para compra de passagens de ônibus online.',
+        tags: [
+          this.tag.html,
+          this.tag.scss,
+          this.tag.typescript,
+          this.tag.vue,
+          this.tag.java,
+          this.tag.spring,
+          this.tag.mysql
+        ]
+      }, {
+        date: 'fevereiro de 2019 - novembro de 2019',
         header: 'Anova Sistemas',
         content: 'Desenvolvimento e manutenção de sistema web para gestão de auto escola.',
         tags: [
