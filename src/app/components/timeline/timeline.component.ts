@@ -1,4 +1,4 @@
-import {TimelineInfo} from './../../models/timeline-info.model';
+import {TimelineInfo} from '../../models/timeline-info.model';
 import {Component, OnInit} from '@angular/core';
 import {TagsService} from 'src/app/services/tags/tags.service';
 
@@ -8,7 +8,6 @@ import {TagsService} from 'src/app/services/tags/tags.service';
   styleUrls: ['./timeline.component.scss']
 })
 export class TimelineComponent implements OnInit {
-
 
   info: TimelineInfo[];
 
