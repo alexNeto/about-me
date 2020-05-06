@@ -3,8 +3,7 @@ import { TimelineInfo } from './../../models/timeline-info.model';
 
 @Component({
   selector: 'app-timeline-item',
-  templateUrl: './timeline-item.component.html',
-  styleUrls: ['./timeline-item.component.scss']
+  templateUrl: './timeline-item.component.html'
 })
 export class TimelineItemComponent implements OnInit {
 

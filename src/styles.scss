@@ -7,6 +7,10 @@
   background: #f2be04;
 }
 
+button::-moz-focus-inner {
+  border: 0;
+}
+
 a {
   color: #c29200;
 }
@@ -17,5 +21,5 @@ a {
 }
 
 .button:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 5px 4px 0 0 rgba(0, 0, 0, 0.30);
 }

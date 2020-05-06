@@ -23,6 +23,7 @@ export class TimelineComponent implements OnInit {
           this.tag.typescript,
           this.tag.vue,
           this.tag.java,
+          this.tag.groovy,
           this.tag.spring,
           this.tag.mysql
         ]

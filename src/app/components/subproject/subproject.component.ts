@@ -3,8 +3,7 @@ import { Subproject } from './../../models/project.model';
 
 @Component({
   selector: 'app-subproject',
-  templateUrl: './subproject.component.html',
-  styleUrls: ['./subproject.component.scss']
+  templateUrl: './subproject.component.html'
 })
 export class SubprojectComponent implements OnInit {
 

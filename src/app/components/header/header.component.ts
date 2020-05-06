@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  templateUrl: './header.component.html'
 })
 export class HeaderComponent implements OnInit {
 
@@ -14,9 +14,13 @@ export class HeaderComponent implements OnInit {
     name: 'Alexandre Neto',
     location: 'São José dos Campos',
     hireable: true,
-    bio: '[Java|Angular] web developer eager to learn more about software architecture and design patterns'
+    bio: 'Full stack developer eager to learn more about software architecture and design patterns'
   };
-  constructor() { }
+
+  faArrowLeft = faArrowLeft;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

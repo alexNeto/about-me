@@ -10,87 +10,112 @@ export class TagsService {
 
   html = {
     link: 'https://www.w3schools.com/html/default.asp',
-    text: 'HTML'
+    text: 'HTML',
+    background: '#e34c26'
   };
 
   css = {
     link: 'https://www.w3schools.com/css/default.asp',
-    text: 'CSS'
+    text: 'CSS',
+    background: '#563d7c'
   };
 
   vue = {
     link: 'https://vuejs.org/',
-    text: 'Vue.js'
+    text: 'Vue.js',
+    background: '#2c3e50'
   };
 
   js = {
     link: 'https://www.w3schools.com/js/default.asp',
-    text: 'JavaScript'
+    text: 'JavaScript',
+    color: '#121212',
+    background: '#f1e05a'
   };
 
   jsp = {
     link: 'https://pt.wikipedia.org/wiki/JavaServer_Pages',
-    text: 'JSP'
+    text: 'JSP',
+    background: '#b07219'
   };
 
   java = {
     link: 'https://www.java.com/pt_BR/about/whatis_java.jsp',
-    text: 'Java'
+    text: 'Java',
+    background: '#b07219'
+  };
+
+  groovy = {
+    link: 'https://groovy-lang.org/',
+    text: 'Groovy',
+    background: '#e69f56'
   };
 
   spring = {
     link: 'https://spring.io/',
-    text: 'Spring'
+    text: 'Spring',
+    background: '#6db33f'
   };
 
   postgres = {
     link: 'https://www.postgresql.org/',
-    text: 'PostgreSQL'
+    text: 'PostgreSQL',
+    background: '#336791'
   };
 
   mysql = {
     link: 'https://www.mysql.com/',
-    text: 'MySQL'
+    text: 'MySQL',
+    background: '#4479a1'
   };
 
   angularjs = {
     link: 'https://angularjs.org/',
-    text: 'AngularJS'
+    text: 'AngularJS',
+    background: '#B72833'
   };
 
   angular = {
     link: 'https://angular.io/',
-    text: 'Angular'
+    text: 'Angular',
+    background: '#E52A3A'
   };
 
   android = {
     link: 'https://developer.android.com/index.html?hl=pt-br',
-    text: 'Android'
+    text: 'Android',
+    background: '#6ab344'
   };
 
   kotlin = {
     link: 'https://kotlinlang.org/',
-    text: 'Kotlin'
+    text: 'Kotlin',
+    background: '#F18E33'
   };
 
   scss = {
     link: 'https://sass-lang.com/',
-    text: 'SCSS'
+    text: 'SCSS',
+    background: '#bf4080'
   };
 
   typescript = {
     link: 'https://sass-lang.com/',
-    text: 'TypeScript'
+    text: 'TypeScript',
+    background: '#2b7489'
   };
 
   firebaseHosting = {
     link: 'https://firebase.google.com/docs/hosting?hl=pt-br',
-    text: 'Firebase Hosting'
+    text: 'Firebase Hosting',
+    color: '#121212',
+    background: '#ffca28'
   };
 
   rxjs = {
     link: 'https://rxjs-dev.firebaseapp.com/',
-    text: 'RxJS'
+    text: 'RxJS',
+    background: '#d81b60'
   };
 
   indexeddb = {
@@ -100,12 +125,14 @@ export class TagsService {
 
   python = {
     link: 'https://www.python.org/',
-    text: 'Python'
+    text: 'Python',
+    background: '#3572A5'
   };
 
   mongo = {
     link: 'https://www.mongodb.com/',
-    text: 'MongoDB'
+    text: 'MongoDB',
+    background: '#13aa52'
   };
 
   flaskrest = {
@@ -115,7 +142,8 @@ export class TagsService {
 
   heroku = {
     link: 'https://www.heroku.com/',
-    text: 'Heroku'
+    text: 'Heroku',
+    background: '#79589F'
   };
 
   bs = {
@@ -125,7 +153,9 @@ export class TagsService {
 
   react = {
     link: 'https://pt-br.reactjs.org/',
-    text: 'React'
+    text: 'React',
+    color: '#121212',
+    background: '#61dafb'
   };
 
   experta = {
@@ -140,6 +170,7 @@ export class TagsService {
 
   db40 = {
     link: 'https://mvnrepository.com/artifact/com.db4o/com.db4o/7.7.67',
-    text: 'DB4O'
+    text: 'DB4O',
+    background: '#B72833'
   };
 }

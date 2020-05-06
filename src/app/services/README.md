@@ -1,3 +1,0 @@
-# Services
-
-Servicos do app

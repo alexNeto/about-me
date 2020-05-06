@@ -2,8 +2,9 @@
   <a
     class="tag is-dark"
     *ngFor="let tag of tags"
+    [ngStyle]="{'background': tag?.background, 'color': tag?.color}"
     href="{{ tag.link }}"
     target="_blank"
-    >{{ tag.text }}</a
+  >{{ tag.text }}</a
   >
 </div>
