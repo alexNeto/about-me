@@ -12,9 +12,8 @@ before_script:
 script:
   - npm run lint
   - npm run build
-
 deploy:
-  cleanup: false
+  skip_cleanup: true
   provider: firebase
   token:
     secure: "$FIREBASE_TOKEN"
