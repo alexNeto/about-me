@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "dist/about-me",
-    "site": "about-me",
+    "site": "about-me-6a44f",
     "ignore": [
       "firebase.json",
       "**/.*",
