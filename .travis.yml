@@ -19,3 +19,4 @@ deploy:
   token: $FIREBASE_TOKEN
   on:
     branch: master
+    tag: true

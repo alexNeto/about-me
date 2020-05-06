@@ -22,6 +22,7 @@ export class OtherProjectsComponent implements OnInit {
             tags: [
               this.tag.html,
               this.tag.scss,
+              this.tag.bulma,
               this.tag.typescript,
               this.tag.angular,
               this.tag.firebaseHosting,
@@ -35,7 +36,7 @@ export class OtherProjectsComponent implements OnInit {
               this.tag.python,
               this.tag.mongo,
               this.tag.flaskrest,
-              this.tag.heroku,
+              this.tag.appEngine,
               this.tag.bs
             ]
           }

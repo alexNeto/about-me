@@ -34,6 +34,7 @@ export class TimelineComponent implements OnInit {
         tags: [
           this.tag.html,
           this.tag.css,
+          this.tag.bootstrap,
           this.tag.js,
           this.tag.jsp,
           this.tag.java,
@@ -53,6 +54,7 @@ export class TimelineComponent implements OnInit {
         tags: [
           this.tag.html,
           this.tag.css,
+          this.tag.bootstrap,
           this.tag.js,
           this.tag.angularjs,
           this.tag.java,

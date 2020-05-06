@@ -173,4 +173,23 @@ export class TagsService {
     text: 'DB4O',
     background: '#B72833'
   };
+
+  bootstrap = {
+    link: 'https://getbootstrap.com/',
+    text: 'Bootstrap',
+    background: '#563d7c'
+  };
+
+  appEngine = {
+    link: 'https://cloud.google.com/appengine',
+    text: 'App Engine',
+    background: '#1a73e8'
+  };
+
+  bulma = {
+    link: 'https://bulma.io/',
+    text: 'Bulma',
+    color: '#121212',
+    background: '#00d1b2'
+  };
 }
