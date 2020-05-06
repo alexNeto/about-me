@@ -4,11 +4,11 @@ node_js:
 cache:
   directories:
     - node_modules
+install:
+  - npm install
 before_script:
   - chmod -R +x ./ci/
   - "./ci/version_control"
-install:
-  - npm install
 script:
   - npm run lint
   - npm run build
