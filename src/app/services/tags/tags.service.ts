@@ -9,13 +9,13 @@ export class TagsService {
   }
 
   html = {
-    link: 'https://www.w3schools.com/html/default.asp',
+    link: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
     text: 'HTML',
     background: '#e34c26'
   };
 
   css = {
-    link: 'https://www.w3schools.com/css/default.asp',
+    link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     text: 'CSS',
     background: '#563d7c'
   };
@@ -27,7 +27,7 @@ export class TagsService {
   };
 
   js = {
-    link: 'https://www.w3schools.com/js/default.asp',
+    link: 'https://developer.mozilla.org/en-US/docs/Web/javascript',
     text: 'JavaScript',
     color: '#121212',
     background: '#f1e05a'
@@ -100,7 +100,7 @@ export class TagsService {
   };
 
   typescript = {
-    link: 'https://sass-lang.com/',
+    link: 'https://www.typescriptlang.org/',
     text: 'TypeScript',
     background: '#2b7489'
   };
@@ -152,7 +152,7 @@ export class TagsService {
   };
 
   react = {
-    link: 'https://pt-br.reactjs.org/',
+    link: 'https://reactjs.org/',
     text: 'React',
     color: '#121212',
     background: '#61dafb'
